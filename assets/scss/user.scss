@@ -1,0 +1,53 @@
+@import "variables";
+
+$user-primary-color: $amber-sae;
+$user-secondary-color: $amber-sae;
+$user-hover-color: $amber-sae-light;
+
+.user-form-control:focus {
+  box-shadow: none;
+  border-color: $user-secondary-color;
+}
+
+.user-profile-button {
+  background: $user-primary-color;
+  box-shadow: none;
+  border: none;
+
+  &:hover, &:focus, &:active {
+    background: $user-hover-color;
+    box-shadow: none;
+  }
+}
+
+.user-back:hover {
+  color: $user-hover-color;
+  cursor: pointer;
+}
+
+.user-labels {
+  font-size: 11px;
+}
+
+.user-add-experience:hover {
+  background: $user-secondary-color;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px $user-secondary-color;
+}
+
+.user-card {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+}
+
+#user-card-container {
+    background-color: $cultured-white;
+    max-height: 95%;
+    overflow-y: auto;
+}
+
+.edit-user-btn{
+  cursor: pointer;
+}

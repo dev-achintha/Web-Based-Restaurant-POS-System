@@ -1,0 +1,104 @@
+.customer-avatar path {
+  fill: #f5f5f5;
+}
+
+#customer-space #customer-details-card {
+  display: block;
+}
+#customer-space #customer-list {
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+  max-height: 100%;
+}
+#customer-space #customer-list::-webkit-scrollbar {
+  display: none;
+}
+#customer-space ul.customer-accordion {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Segoe UI";
+  clear: both;
+  display: table;
+}
+#customer-space ul.customer-accordion #input-spinner-pb {
+  font-size: 2em;
+}
+#customer-space ul.customer-accordion .list {
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  height: 65px;
+  vertical-align: sub;
+  background: #f5f5f5;
+  color: #171826;
+  clear: both;
+}
+#customer-space ul.customer-accordion .list:after {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #171826;
+}
+#customer-space ul.customer-accordion .list:before {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #171826;
+}
+#customer-space ul.customer-accordion .list a {
+  text-decoration: none;
+  color: #171826;
+  padding: 17px 0px 17px 45px;
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+#customer-space ul.customer-accordion .list a:hover {
+  background-color: rgba(252, 127, 25, 0.2117647059);
+  transition: 300ms all;
+  color: #171826;
+}
+#customer-space ul.customer-accordion .list:last-child {
+  border-bottom: none;
+}
+#customer-space ul.customer-accordion .active:after {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #fff;
+}
+#customer-space ul.customer-accordion .active:before {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  padding: 0px 5px;
+  color: #fff;
+}
+#customer-space ul.customer-accordion .active > a {
+  color: #171826;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(252, 127, 25, 0.2117647059);
+}
+#customer-space ul.customer-accordion .active .list {
+  background: #9f9f9e;
+}
+#customer-space ul.customer-accordion .active .list a {
+  padding: 17px 0px 17px 45px;
+  background-color: rgba(252, 127, 25, 0.2117647059);
+}/*# sourceMappingURL=customer.css.map */

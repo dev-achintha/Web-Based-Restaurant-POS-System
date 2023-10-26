@@ -1,0 +1,15 @@
+#update-space #update-tab a {
+  color: #171826;
+  border: none;
+}
+#update-space #update-tab .active {
+  font-weight: 700;
+  color: #fc8019 !important;
+  border: none;
+}
+#update-space #update-tab-content {
+  background-color: white;
+}
+#update-space #update-tab-content .tab-pane {
+  padding: 20px;
+}/*# sourceMappingURL=update.css.map */

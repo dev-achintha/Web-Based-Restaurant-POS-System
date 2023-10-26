@@ -1,0 +1,22 @@
+@import "variables";
+
+#dashboard-space {
+  #dashboard-tab {
+    a {
+      color: $raisin-black;
+      border: none;
+    }
+    .active {
+      font-weight: 700;
+      color: $amber-sae !important;
+      border: none;
+    } 
+  }
+  #dashboard-tab-content {
+    background-color: $white;
+    .tab-pane {
+      padding: 20px;
+      // border: 1px solid $spanish-gray;
+    }
+  }
+}

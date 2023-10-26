@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-frame {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.top-bar,
+#addcustomer-payboard {
+  border-bottom: 0.5px solid #9f9f9e;
+}
+
+#slct-tbl-btn .material-icons,
+#wifi-btn .material-icons,
+#requestFullscreen-btn .material-icons,
+#sync-btn .material-icons,
+#addcustomer-btn-payboard .material-icons,
+#refresh-btn .material-icons,
+#addsale-btn .material-icons,
+#del-btn-item-payboard .material-icons,
+#btn-count-down .material-icons,
+#btn-count-up .material-icons,
+#btn-hold-cart .material-icons,
+#btn-pay-proceed .material-icons,
+#new-customer .material-icons,
+#btn-edit-customer-details .material-icons {
+  position: relative;
+  top: 5px;
+}
+
+.main-container,
+.payboard,
+.top-bar,
+.p1,
+.food-item,
+.bg-white,
+#addcustomer-payboard,
+#navigation,
+#sale-item-payboard,
+#tbl-payboard,
+#container-tbl-payboard {
+  background-color: white;
+}
+
+#comp-area,
+#sync-btn,
+#wifi-btn,
+#slct-tbl-btn,
+#pay-section,
+#requestFullscreen-btn {
+  background-color: #f5f5f5;
+}
+
+#add-some-discount,
+#add-some-coupon,
+#add-some-note {
+  text-decoration: none;
+  color: #fc8019;
+  font-weight: 700;
+}
+
+#add-some {
+  background-color: rgba(252, 127, 25, 0.2117647059);
+}
+
+#navigation {
+  max-width: 80px;
+}
+#navigation .material-icons {
+  font-size: 40px;
+}
+#navigation .btn {
+  border: 1px solid #9f9f9e;
+  color: #9f9f9e;
+  background-color: #9f9f9e;
+}
+#navigation .active-nav-btn {
+  border: 1px solid #fc8019 !important;
+  color: #fc8019 !important;
+  background-color: rgba(252, 127, 25, 0.2117647059) !important;
+}
+#navigation .navt-btn {
+  position: relative;
+  z-index: 3;
+}
+#navigation .navt-btn i {
+  position: absolute;
+  z-index: 2;
+}
+#navigation .navt-btn small {
+  position: absolute;
+  z-index: 1;
+}
+
+.btn:focus,
+form-control:focus {
+  box-shadow: #fc8019 !important;
+  outline: #fc8019 !important;
+  border-color: #fc8019 !important;
+}
+
+.btn-sae {
+  border: 1px solid #fc8019 !important;
+  color: white !important;
+  background-color: #fc8019 !important;
+}
+
+.btn-sae:hover {
+  border: 1px solid #fc8019 !important;
+  color: #fc8019 !important;
+  background-color: rgba(252, 127, 25, 0.2117647059) !important;
+}
+
+.btn-sae-outline {
+  border: none;
+}
+
+.btn-sae-outline:hover {
+  border: 1px dashed #fc8019 !important;
+}
+
+.btn-sae-light {
+  background-color: rgba(252, 127, 25, 0.2117647059);
+}
+
+.btn-green {
+  border: 1px solid #09aa29 !important;
+  color: white !important;
+  background-color: #09aa29 !important;
+}
+
+.btn-green:hover {
+  border: 1px solid #09aa29 !important;
+  color: #09aa29 !important;
+  background-color: rgba(9, 170, 41, 0.2274509804) !important;
+}
+
+.btn-green-outline {
+  border: 1px solid #09aa29 !important;
+  color: #09aa29 !important;
+  background-color: #f5f5f5 !important;
+}
+
+.btn-dis {
+  background-color: #f5f5f5 !important;
+  border: 1px solid #9f9f9e !important;
+  color: #9f9f9e !important;
+}
+
+.btn-dis-act {
+  color: #171826 !important;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+.input-group:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}/*# sourceMappingURL=pos.css.map */

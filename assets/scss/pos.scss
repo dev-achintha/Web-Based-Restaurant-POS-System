@@ -1,0 +1,168 @@
+@import "variables";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-frame {
+  margin: 0;
+  padding: 0;
+  max-height: $height-vh;
+  height: $height-vh;
+}
+
+.top-bar,
+#addcustomer-payboard {
+  border-bottom: 0.5px solid $spanish-gray;
+}
+#slct-tbl-btn,
+#wifi-btn,
+#requestFullscreen-btn,
+#sync-btn,
+#addcustomer-btn-payboard,
+#refresh-btn,
+#addsale-btn,
+#del-btn-item-payboard,
+#btn-count-down,
+#btn-count-up,
+#btn-hold-cart,
+#btn-pay-proceed,
+#new-customer,
+#btn-edit-customer-details {
+  .material-icons {
+    position: relative;
+    top: 5px;
+  }
+}
+
+.main-container,
+.payboard,
+.top-bar,
+.p1,
+.food-item,
+.bg-white,
+#addcustomer-payboard,
+#navigation,
+#sale-item-payboard,
+#tbl-payboard,
+#container-tbl-payboard {
+  background-color: $white;
+}
+
+#comp-area,
+#sync-btn,
+#wifi-btn,
+#slct-tbl-btn,
+#pay-section,
+#requestFullscreen-btn {
+  background-color: $cultured-white;
+}
+#add-some-discount,
+#add-some-coupon,
+#add-some-note {
+  text-decoration: none;
+  color: $amber-sae;
+  font-weight: 700;
+}
+#add-some {
+  background-color: $amber-sae-light;
+}
+
+#navigation {
+  max-width: 80px;
+
+  .material-icons {
+    font-size: 40px;
+  }
+  .btn {
+    border: 1px solid $spanish-gray;
+    color: $spanish-gray;
+    background-color: $spanish-gray;
+  }
+  .active-nav-btn {
+    border: 1px solid $amber-sae !important;
+    color: $amber-sae !important;
+    background-color: $amber-sae-light !important;
+  }
+  .navt-btn {
+    position: relative;
+    z-index: 3;
+    i {
+      position: absolute;
+      z-index: 2;
+    }
+    small {
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}
+
+.btn:focus,
+form-control:focus {
+  box-shadow: $amber-sae !important;
+  outline: $amber-sae !important;
+  border-color: $amber-sae !important;
+}
+.btn-sae {
+  border: 1px solid $amber-sae !important;
+  color: $white !important;
+  background-color: $amber-sae !important;
+}
+.btn-sae:hover {
+  border: 1px solid $amber-sae !important;
+  color: $amber-sae !important;
+  background-color: $amber-sae-light !important;
+}
+.btn-sae-outline {
+  border: none;
+}
+.btn-sae-outline:hover {
+  border: 1px dashed $amber-sae !important;
+}
+.btn-sae-light{
+  background-color: $amber-sae-light;
+}
+.btn-green {
+  border: 1px solid $green-pantone !important;
+  color: $white !important;
+  background-color: $green-pantone !important;
+}
+.btn-green:hover {
+  border: 1px solid $green-pantone !important;
+  color: $green-pantone !important;
+  background-color: $green-pantone-light !important;
+}
+.btn-green-outline {
+  border: 1px solid $green-pantone !important;
+  color: $green-pantone !important;
+  background-color: $cultured-white !important;
+}
+.btn-dis {
+  background-color: $cultured-white !important;
+  border: 1px solid $spanish-gray !important;
+  color: $spanish-gray !important;
+}
+.btn-dis-act {
+  color: $raisin-black !important;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active,
+.input-group:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}

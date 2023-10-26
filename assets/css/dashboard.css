@@ -1,0 +1,15 @@
+#dashboard-space #dashboard-tab a {
+  color: #171826;
+  border: none;
+}
+#dashboard-space #dashboard-tab .active {
+  font-weight: 700;
+  color: #fc8019 !important;
+  border: none;
+}
+#dashboard-space #dashboard-tab-content {
+  background-color: white;
+}
+#dashboard-space #dashboard-tab-content .tab-pane {
+  padding: 20px;
+}/*# sourceMappingURL=dashboard.css.map */
