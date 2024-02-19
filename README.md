@@ -13,9 +13,6 @@ This project is a web-based Point of Sale (POS) system developed as a project fo
 - HTML
 - Bootstrap
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 - The developers of PHP, SQLite, Bootstrap, jQuery, and other libraries used in this project.
 - The UI is partially inspired by designs found on the internet, specifically, from an outstanding designer on Dribbble. Unfortunately, the name of the designer couldn't be located. Nonetheless, due credit is extended to them for their contribution. 🥲
@@ -26,3 +23,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ![image](https://github.com/iamachintha/Web-Based-Restaurant-POS-System/assets/72160964/5962a7d6-383a-447c-808d-3dfb0538f38e)
 
+## License
+This project is licensed under the [MIT License](LICENSE).
