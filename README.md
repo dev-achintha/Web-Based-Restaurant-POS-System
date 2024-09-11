@@ -1,4 +1,4 @@
-# Web-Based Point of Sale System
+# Web-Based Point of Sale System (An Academic Mini Project)
 
 This project is a web-based Point of Sale (POS) system developed as a project for the "Information Architecture & Web Development" module in my degree program. The system is designed to streamline the point of sale process using various web technologies.
 
